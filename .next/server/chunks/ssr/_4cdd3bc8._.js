@@ -71,29 +71,29 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Hero = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "bg-gray-50/40 rounded-b-xl flex flex-wrap items-center justify-center p-5 max-w-6xl mx-auto font-sans",
+        className: "bg-gray-50/40 rounded-b-xl flex flex-wrap items-center justify-center p-5  max-w-6xl mx-auto font-sans gap-0 lg:justify-around",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 className: "",
                 src: "/logoKosher.png",
                 alt: "logo Kosher logo",
-                width: 400,
-                height: 400,
+                width: 500,
+                height: 500,
                 priority: true
             }, void 0, false, {
                 fileName: "[project]/app/components/Hero.js",
-                lineNumber: 7,
+                lineNumber: 8,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col items-center justify-around p-5 bg-white sm:h-[400px] w-[400px]",
+                className: "flex flex-col items-center justify-around p-5 bg-white sm:h-[500px] w-[500px]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         className: "text-2xl sm:text-3xl font-bold text-gray-700 ",
                         children: "ברוכים הבאים לדף ההזמנה"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Hero.js",
-                        lineNumber: 16,
+                        lineNumber: 17,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -101,7 +101,7 @@ const Hero = ()=>{
                         children: "אנו מודים לכם שבחרתם בסלטי שולחן השבת. הבית שלכם לאוכל טרי ובריא. אנו פתוחים להזמנות גם השבוע."
                     }, void 0, false, {
                         fileName: "[project]/app/components/Hero.js",
-                        lineNumber: 17,
+                        lineNumber: 18,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
@@ -112,21 +112,21 @@ const Hero = ()=>{
                                 children: ".מלא פרטים אישיים וכתובת למשלוח"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Hero.js",
-                                lineNumber: 19,
+                                lineNumber: 20,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "סמן שמונה או ארבעה עשר אריזות סלטים שונים לבחירתך."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Hero.js",
-                                lineNumber: 20,
+                                lineNumber: 21,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: "בחר בתשלום מזומן לשליח או העברה בביט"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Hero.js",
-                                lineNumber: 21,
+                                lineNumber: 22,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -137,26 +137,26 @@ const Hero = ()=>{
                                         children: "ממשלוח חינם"
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Hero.js",
-                                        lineNumber: 22,
+                                        lineNumber: 23,
                                         columnNumber: 53
                                     }, this),
                                     " ביום חמישי."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/components/Hero.js",
-                                lineNumber: 22,
+                                lineNumber: 23,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Hero.js",
-                        lineNumber: 18,
+                        lineNumber: 19,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/Hero.js",
-                lineNumber: 15,
+                lineNumber: 16,
                 columnNumber: 9
             }, this)
         ]

@@ -3,16 +3,17 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='bg-gray-50/40 rounded-b-xl flex flex-wrap items-center justify-center p-5 max-w-6xl mx-auto font-sans'>
+    <div className='bg-gray-50/40 rounded-b-xl flex flex-wrap items-center justify-center p-5  max-w-6xl mx-auto font-sans
+                    gap-0 lg:justify-around'>
         <Image
           className=""
           src="/logoKosher.png"
           alt="logo Kosher logo"
-          width={400}
-          height={400}
+          width={500}
+          height={500}
           priority
         />
-        <div className='flex flex-col items-center justify-around p-5 bg-white sm:h-[400px] w-[400px]'>
+        <div className='flex flex-col items-center justify-around p-5 bg-white sm:h-[500px] w-[500px]'>
             <h1 className='text-2xl sm:text-3xl font-bold text-gray-700 '>ברוכים הבאים לדף ההזמנה</h1>
             <h3 className='text-lg font-light text-gray-600'>אנו מודים לכם שבחרתם בסלטי שולחן השבת. הבית שלכם לאוכל טרי ובריא. אנו פתוחים להזמנות גם השבוע.</h3>
             <ol className="list-inside list-decimal text-md text-right p-2 ">
