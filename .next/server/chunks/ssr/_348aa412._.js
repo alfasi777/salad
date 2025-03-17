@@ -614,7 +614,7 @@ const Contact = ()=>{
                     columnNumber: 14
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("fieldset", {
-                    className: "max-w-fit p-2 flex gap-6 mb-2",
+                    className: "max-w-fit flex flex-col p-2  gap-2 mb-2",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-center",
@@ -648,55 +648,62 @@ const Contact = ()=>{
                             columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex items-center gap-4",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                            id: "country-option-2",
-                                            type: "radio",
-                                            name: "צורת תשלום",
-                                            value: "העברה בביט",
-                                            onChange: handleChange2,
-                                            className: "w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/components/Contact.js",
-                                            lineNumber: 136,
-                                            columnNumber: 23
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                            htmlFor: "country-option-2",
-                                            className: "block ms-2 text-md font-medium text-gray-800/90 dark:text-gray-300",
-                                            children: "העברה בביט"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/components/Contact.js",
-                                            lineNumber: 138,
-                                            columnNumber: 23
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/components/Contact.js",
-                                    lineNumber: 135,
-                                    columnNumber: 19
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                    type: "text",
-                                    name: "אסמכתה ביט",
-                                    placeholder: "מספר אסמכתה",
-                                    hidden: !isBit,
-                                    required: isBit ? true : false,
-                                    className: "flex-1 p-0 max-w-[50%] outline-none border-[0.5px] border-green-400 rounded-md bg-white dark:bg-darkHower/30 dark:border-white/90  "
-                                }, void 0, false, {
-                                    fileName: "[project]/app/components/Contact.js",
-                                    lineNumber: 142,
-                                    columnNumber: 17
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                            className: "",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex items-center gap-4 ",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex items-center",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                id: "country-option-2",
+                                                type: "radio",
+                                                name: "צורת תשלום",
+                                                value: "העברה בביט",
+                                                onChange: handleChange2,
+                                                className: "w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/components/Contact.js",
+                                                lineNumber: 136,
+                                                columnNumber: 27
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                htmlFor: "country-option-2",
+                                                className: "block ms-2 text-md font-medium text-gray-800/90 dark:text-gray-300",
+                                                children: "העברה בביט"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/components/Contact.js",
+                                                lineNumber: 138,
+                                                columnNumber: 27
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/components/Contact.js",
+                                        lineNumber: 135,
+                                        columnNumber: 23
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                        type: "text",
+                                        name: "אסמכתה ביט",
+                                        placeholder: "מספר אסמכתה",
+                                        hidden: !isBit,
+                                        required: isBit ? true : false,
+                                        className: "flex-1 p-0 max-w-[50%] outline-none border-[0.5px] border-green-400 rounded-md bg-white dark:bg-darkHower/30 dark:border-white/90  "
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/components/Contact.js",
+                                        lineNumber: 143,
+                                        columnNumber: 21
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/components/Contact.js",
+                                lineNumber: 134,
+                                columnNumber: 21
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/app/components/Contact.js",
-                            lineNumber: 134,
-                            columnNumber: 17
+                            lineNumber: 133,
+                            columnNumber: 19
                         }, this)
                     ]
                 }, void 0, true, {
@@ -711,7 +718,7 @@ const Contact = ()=>{
                     className: "md:w-[45%] w-[85%] p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHower/30 dark:border-white/90"
                 }, void 0, false, {
                     fileName: "[project]/app/components/Contact.js",
-                    lineNumber: 149,
+                    lineNumber: 153,
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -727,13 +734,13 @@ const Contact = ()=>{
                             height: 20
                         }, void 0, false, {
                             fileName: "[project]/app/components/Contact.js",
-                            lineNumber: 159,
+                            lineNumber: 163,
                             columnNumber: 17
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/Contact.js",
-                    lineNumber: 155,
+                    lineNumber: 159,
                     columnNumber: 14
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -741,7 +748,7 @@ const Contact = ()=>{
                     children: result
                 }, void 0, false, {
                     fileName: "[project]/app/components/Contact.js",
-                    lineNumber: 162,
+                    lineNumber: 166,
                     columnNumber: 14
                 }, this)
             ]

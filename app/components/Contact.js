@@ -121,7 +121,7 @@ const Contact = () => {
              <h4 
                 className='max-w-fit p-2 rounded-b-md mt-6 mb-2 text-xl font-Outfit text-green-900 font-semibold shadow inset-shadow-black'>דרך התשלום המועדפת עליך</h4>
              <fieldset
-                className='max-w-fit p-2 flex gap-6 mb-2'
+                className='max-w-fit flex flex-col p-2  gap-2 mb-2'
              >
                 <div className="flex items-center">
                   <input id="country-option-1" type="radio" name="צורת תשלום" value="תשלום במזומן" onChange={handleChange} defaultChecked={true}
@@ -130,19 +130,23 @@ const Contact = () => {
                     תשלום במזומן
                   </label>
                 </div>
-
-                <div className="flex items-center gap-4">
-                  <div className="flex items-center">
-                      <input id="country-option-2" type="radio" name="צורת תשלום" value="העברה בביט" onChange={handleChange2}
-                                  className="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300" />
-                      <label htmlFor="country-option-2" className="block ms-2 text-md font-medium text-gray-800/90 dark:text-gray-300">
-                    העברה בביט
-                  </label>
-                </div>
-                <input type='text' name='אסמכתה ביט' placeholder='מספר אסמכתה' hidden={!isBit} required={isBit ? true : false}
-                      className='flex-1 p-0 max-w-[50%] outline-none border-[0.5px] border-green-400 rounded-md bg-white
-                                  dark:bg-darkHower/30 dark:border-white/90 
-                                  ' />
+                  <div className=''>
+                    <div className="flex items-center gap-4 ">
+                      <div className="flex items-center">
+                          <input id="country-option-2" type="radio" name="צורת תשלום" value="העברה בביט" onChange={handleChange2}
+                                      className="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300" />
+                          <label htmlFor="country-option-2" className="block ms-2 text-md font-medium text-gray-800/90 dark:text-gray-300">
+                        העברה בביט
+                      </label>
+                    </div>
+                    
+                    <input type='text' name='אסמכתה ביט' placeholder='מספר אסמכתה' hidden={!isBit} required={isBit ? true : false}
+                        className='flex-1 p-0 max-w-[50%] outline-none border-[0.5px] border-green-400 rounded-md bg-white
+                                    dark:bg-darkHower/30 dark:border-white/90 
+                                    ' />
+                    
+                  </div>
+                  
                 </div>
             </fieldset>
 
