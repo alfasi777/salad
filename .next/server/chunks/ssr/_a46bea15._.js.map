@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/asaf/Documents/Builds/asaf/salad-zol/app/components/Contact.js"],"sourcesContent":["\"use client\"\nimport React, { useState } from 'react'\n\nconst Contact = () => {\n\n  const [result, setResult] = useState(\"\");\n  const [activeItemsCount,setActiveItemsCount] = useState (0);\n\n\n  return (\n    <div id='contactForm' >\n\n    </div>\n  )\n}\n\nexport default Contact"],"names":[],"mappings":";;;;AACA;AADA;;;AAGA,MAAM,UAAU;IAEd,MAAM,CAAC,QAAQ,UAAU,GAAG,CAAA,GAAA,qMAAA,CAAA,WAAQ,AAAD,EAAE;IACrC,MAAM,CAAC,kBAAiB,oBAAoB,GAAG,CAAA,GAAA,qMAAA,CAAA,WAAQ,AAAD,EAAG;IAGzD,qBACE,8OAAC;QAAI,IAAG;;;;;;AAIZ;uCAEe","debugId":null}},
+    {"offset": {"line": 27, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":["file:///home/asaf/Documents/Builds/asaf/salad-zol/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-ssr'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
