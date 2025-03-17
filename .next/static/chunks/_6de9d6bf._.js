@@ -574,7 +574,7 @@ const Contact = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                     htmlFor: "items-option-1",
-                                    className: "block ms-2  text-md font-semibold text-gray-800/90 dark:text-gray-300",
+                                    className: "block ms-2  text-md font-semibold text-gray-800/90",
                                     children: "8 יחידות - 99 שקלים"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Contact.js",
@@ -604,7 +604,7 @@ const Contact = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                     htmlFor: "items-option-2",
-                                    className: "block ms-2 text-md font-semibold text-gray-800/90 dark:text-gray-300",
+                                    className: "block ms-2 text-md font-semibold text-gray-800/90",
                                     children: "14 יחידות - 149 שקלים"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Contact.js",
@@ -624,7 +624,7 @@ const Contact = ()=>{
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("fieldset", {
-                    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-12",
+                    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12 md:gap-6 gap-2",
                     children: items
                 }, void 0, false, {
                     fileName: "[project]/app/components/Contact.js",
@@ -660,7 +660,7 @@ const Contact = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                     htmlFor: "country-option-1",
-                                    className: "block ms-2  text-md font-medium text-gray-800/90 dark:text-gray-300",
+                                    className: "block ms-2 font-medium text-gray-800/90",
                                     children: "תשלום במזומן"
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/Contact.js",
@@ -695,7 +695,7 @@ const Contact = ()=>{
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 htmlFor: "country-option-2",
-                                                className: "block ms-2 text-md font-medium text-gray-800/90 dark:text-gray-300",
+                                                className: "block ms-2 font-medium text-gray-800/90",
                                                 children: "העברה בביט"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/Contact.js",

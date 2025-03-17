@@ -112,7 +112,7 @@ const Contact = () => {
             </fieldset>
             {/*<h1> Active : {activeItemsCount}    Max: {maxItems}</h1>*/}
             <fieldset
-                className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-12'
+                className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12 md:gap-6 gap-2'
              >
 
               {items}
