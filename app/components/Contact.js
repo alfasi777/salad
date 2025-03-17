@@ -96,7 +96,7 @@ const Contact = () => {
                   <input id="items-option-1" type="radio" name="מספר יחידות" value="שמונה יחידות" onChange={changeHandler} disabled={activeItemsCount > 8}  defaultChecked = {true}
                                 className="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                   <label htmlFor="items-option-1" 
-                          className="block ms-2  text-md font-semibold text-black dark:text-gray-300">
+                          className="block ms-2  text-md font-semibold text-gray-800/90">
                     8 יחידות - 99 שקלים
                   </label>
                 </div>
@@ -105,7 +105,7 @@ const Contact = () => {
                   <input id="items-option-2" type="radio" name="מספר יחידות" value="14 יחידות" onChange={changeHandler}
                             className="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
                   <label htmlFor="items-option-2" 
-                          className="block ms-2 text-md font-semibold text-black dark:text-gray-300">
+                          className="block ms-2 text-md font-semibold text-gray-800/90">
                     14 יחידות - 149 שקלים
                   </label>
                 </div>
@@ -126,7 +126,7 @@ const Contact = () => {
                 <div className="flex items-center">
                   <input id="country-option-1" type="radio" name="צורת תשלום" value="תשלום במזומן" onChange={handleChange} defaultChecked={true}
                       className="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" />
-                  <label htmlFor="country-option-1" className="block ms-2  text-md font-medium text-black dark:text-gray-300">
+                  <label htmlFor="country-option-1" className="block ms-2 font-medium text-gray-800/90">
                     תשלום במזומן
                   </label>
                 </div>
@@ -135,7 +135,7 @@ const Contact = () => {
                       <div className="flex items-center">
                           <input id="country-option-2" type="radio" name="צורת תשלום" value="העברה בביט" onChange={handleChange2}
                                       className="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300" />
-                          <label htmlFor="country-option-2" className="block ms-2 text-md font-medium text-black dark:text-gray-300">
+                          <label htmlFor="country-option-2" className="block ms-2 font-medium text-gray-800/90">
                         העברה בביט
                       </label>
                     </div>
